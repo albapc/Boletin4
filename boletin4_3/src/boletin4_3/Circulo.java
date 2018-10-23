@@ -8,5 +8,11 @@ public class Circulo {
     
 public Circulo(){
 }
-
+public Circulo(double radio, double pi){
+    this.radio= radio;
+    this.pi= pi;
+}
+public float calcularArea(){
+    
+}
 }
