@@ -12,7 +12,19 @@ public Circulo(double radio, double pi){
     this.radio= radio;
     this.pi= pi;
 }
-public float calcularArea(){
-    
+public double calcularArea(){
+   double area;
+   area= Math.pow(radio, 2) * pi;
+   System.out.println("El área del círculo es: "+area);
+   return area;
+}
+public double calcularLonxitude(){
+    double lonxitude;
+    lonxitude= 2*pi*radio;
+    System.out.println("La longitud del círculo es: "+lonxitude);
+    return lonxitude;
+}
+public void setRadio(double radio){
+    this.radio= radio;
 }
 }
