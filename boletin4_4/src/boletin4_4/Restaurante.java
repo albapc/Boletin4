@@ -32,8 +32,10 @@ public class Restaurante {
     }
 
     public int amosarNumClientes() {
+        int usarPolbo;
+        usarPolbo=kgPolbo/2;
         int numClientes;
-        numClientes = (3 * kgPolbo * kgPatacas) / 2;//regla de tres
+        numClientes = Math.min(usarPolbo, kgPatacas)*3;
         System.out.println("Se puede atender a " + numClientes + " clientes.");
         return numClientes;
     }
