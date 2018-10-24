@@ -14,8 +14,10 @@ public class Restaurante {
        this.kgPatacas= kgPatacas;
    }
    public void setKgPolbo(int kgPolbo){
+       this.kgPolbo= kgPolbo;
    }
    public void setKgPatacas(int kgPatacas){
+       this.kgPatacas= kgPatacas;
    }
 
    public void engadirPolbo(int x){
@@ -24,10 +26,10 @@ public class Restaurante {
    public void engadirPatacas(int x){
        kgPatacas= kgPatacas+x;
    }
-      public int getNumClientes(){
+      public int amosarNumClientes(){
        int numClientes;
-       numClientes= kgPatacas+kgPolbo;
-       System.out.println("Número de clientes que puede atender: "+numClientes);
+       numClientes= (3*kgPolbo*kgPatacas)/2;//regla de tres
+       System.out.println("Se puede atender a "+numClientes+" clientes.");
        return numClientes;
    }
    public void amosarPolbo(){

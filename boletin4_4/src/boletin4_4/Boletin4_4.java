@@ -10,9 +10,9 @@ public class Boletin4_4 {
         obxResultado2.setKgPatacas(6);
         obxResultado2.engadirPatacas(3);
         obxResultado2.engadirPolbo(4);
-        obxResultado.getNumClientes();
         obxResultado2.amosarPatacas();
         obxResultado2.amosarPolbo();
+        obxResultado2.amosarNumClientes();
 
     }
 }
