@@ -6,8 +6,8 @@ public class Boletin4_4 {
         Restaurante obxResultado = new Restaurante();
 
         Restaurante obxResultado2 = new Restaurante(8, 6);
-        obxResultado2.setKgPolbo(8);
-        obxResultado2.setKgPatacas(6);
+//        obxResultado2.setKgPolbo(8); //si declaramos uno no hace falta declarar esto
+//        obxResultado2.setKgPatacas(6);
         obxResultado2.engadirPatacas(3);
         obxResultado2.engadirPolbo(4);
         obxResultado2.amosarPatacas();
