@@ -33,9 +33,9 @@ public class Restaurante {
 
     public int amosarNumClientes() {
         int usarPolbo;
-        usarPolbo=kgPolbo/2;
+        usarPolbo = kgPolbo / 2;
         int numClientes;
-        numClientes = Math.min(usarPolbo, kgPatacas)*3;
+        numClientes = Math.min(usarPolbo, kgPatacas) * 3;
         System.out.println("Se puede atender a " + numClientes + " clientes.");
         return numClientes;
     }
